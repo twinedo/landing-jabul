@@ -7,9 +7,8 @@ import React from "react";
 function AboutUs() {
   return (
     <Box>
-      <Content>
-        <Header />
-      </Content>
+      <Header />
+
       <Box>About us</Box>
       <Footer />
     </Box>

@@ -10,10 +10,8 @@ interface ContainerProps {
 function Content(props: ContainerProps) {
   const { children } = props;
   return (
-    <Container maxW="container.lg">
-      {/* <Header /> */}
+    <Container maxW="1240px" py="50px">
       {children}
-      {/* <Footer /> */}
     </Container>
   );
 }
